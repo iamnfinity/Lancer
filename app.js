@@ -34,6 +34,7 @@ app.use(body_parser());
   * Set Render Engine
   */
 
+  
   app.set('view engine','ejs');
   // Now we can use res.render to render ejs pages
 
