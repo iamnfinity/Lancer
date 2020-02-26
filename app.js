@@ -42,7 +42,7 @@ app.use(body_parser());
  * Configuring Base Routes
  */
 app.get("/",(req,res)=>{
-    res.render('index',{
+    res.render('pages/index',{
         pageName : 'ColLancer'
     });
 });
