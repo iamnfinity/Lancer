@@ -47,6 +47,12 @@ app.get("/",(req,res)=>{
     });
 });
 
+// Login View Route
+app.get("/login",(req,res)=>{
+    res.render('pages/login',{
+     pageName : "Loing"
+    });
+});
 
 /**
  * Starting Server
